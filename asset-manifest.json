@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my_resume/static/css/main.54dd033b.chunk.css",
+    "main.css": "/my_resume/static/css/main.6c3385e3.chunk.css",
     "main.js": "/my_resume/static/js/main.a253e721.chunk.js",
     "main.js.map": "/my_resume/static/js/main.a253e721.chunk.js.map",
     "runtime-main.js": "/my_resume/static/js/runtime-main.1f686a2c.js",
@@ -26,7 +26,7 @@
     "static/css/4.71ccdf1f.chunk.css.map": "/my_resume/static/css/4.71ccdf1f.chunk.css.map",
     "static/css/5.ea3f5795.chunk.css.map": "/my_resume/static/css/5.ea3f5795.chunk.css.map",
     "static/css/6.6c8f75a3.chunk.css.map": "/my_resume/static/css/6.6c8f75a3.chunk.css.map",
-    "static/css/main.54dd033b.chunk.css.map": "/my_resume/static/css/main.54dd033b.chunk.css.map",
+    "static/css/main.6c3385e3.chunk.css.map": "/my_resume/static/css/main.6c3385e3.chunk.css.map",
     "static/js/2.cf3dfbed.chunk.js.LICENSE.txt": "/my_resume/static/js/2.cf3dfbed.chunk.js.LICENSE.txt",
     "static/media/CVicon.813deced.png": "/my_resume/static/media/CVicon.813deced.png",
     "static/media/LI.349cc2dc.png": "/my_resume/static/media/LI.349cc2dc.png",
@@ -40,7 +40,7 @@
   "entrypoints": [
     "static/js/runtime-main.1f686a2c.js",
     "static/js/2.cf3dfbed.chunk.js",
-    "static/css/main.54dd033b.chunk.css",
+    "static/css/main.6c3385e3.chunk.css",
     "static/js/main.a253e721.chunk.js"
   ]
 }

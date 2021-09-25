@@ -1,0 +1,169 @@
+$headerHeight: 60px;
+$selectWidth: 140px;
+$mobileheight: 40px;
+
+.container{
+    height: $headerHeight;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    background-color: #556272;
+    position: fixed;
+    z-index: 100;
+}
+
+.langContainer{
+    height: $headerHeight;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: $selectWidth;
+}
+
+select{
+    width: 60px;
+    height: 20px;
+    border: 0px transparent solid;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+select option {
+    color: cadetblue;
+}
+
+.rightPart{
+    height: $headerHeight;
+    width: calc(1000px - 140px);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 60px;
+}
+
+.itemsContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    margin-left: 20px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.item:hover{
+    color: rgb(185, 185, 185);
+}
+
+.burgerMenu{
+    display: none;
+}
+
+.activeLink{
+    color: lime;
+}
+
+.menuItem{
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .container{
+        width: 100vw;
+        height: $mobileheight;
+    }
+
+    .langContainer{
+        height: $mobileheight;
+    }
+
+    .select{
+        height: $mobileheight;
+    }
+
+    .itemsContainer{
+        display: none;
+    }
+
+    .rightPart{
+        padding-right: 0px;
+        height: $mobileheight;
+    }
+
+    .burgerMenu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: $headerHeight;
+        height: $mobileheight;
+    }
+
+    .menuContainer{
+        background-color: rgba(145, 145, 145, 0.233);
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        left: 100vw;
+        margin-top: $mobileheight;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sideBar{
+        width: 60vw;
+        height: 100vh;
+    }
+
+    .menu{
+        width: 40vw;
+        height: 100vh;
+        background-color: orange;
+    }
+
+    .menuItem{
+        margin-top: 10px;
+        margin-left: 10px;
+        display: flex;
+        font-weight: 500;
+        color: white;
+        cursor: pointer;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    .icon{
+        height: 25px;
+        width: 25px;
+        margin-right: 10px;
+    }
+
+    .activeLink{
+        color: lime;
+    }
+    
+
+}
+
+
+@media (max-width: 600px){
+    .sideBar{
+        width: 40vw;
+    }
+
+    .menu{
+        width: 60vw;
+    }
+}
+
+@media (max-width: 500px){
+    select{
+        margin-left: 15px;
+    }
+}
+
+

@@ -1,0 +1,118 @@
+$prfileImg: 150px;
+$width: 1000px;
+$width1000: 100vw;
+
+.container{
+    width: $width;
+}
+
+.mainImg{
+    width: $width;
+}
+
+.profileContiner{
+    width: $width;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.profileContiner2{
+    width: 400px;
+    min-height: 428px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: -140px;
+}
+
+.profileimg{
+    height: $prfileImg;
+    width: $prfileImg;
+    border-radius: 50%;
+    margin-top: 80px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.name{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.profession{
+    margin-top: 8px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+
+.cvButton{
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: lime;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+@media (max-width: 1000px){
+    .container{
+        width: $width1000;
+    }
+
+
+    .mainImg{
+        width: $width1000;
+    }
+
+    .profileContiner{
+        width: $width1000;
+    }
+}
+
+@media (max-width: 500px){
+    .name{
+        font-size: 20px;
+    }
+
+    .profession{
+        width: 100vw;
+        font-size: 10px;
+    }
+
+    .profileimg{
+        height: 100px;
+        width: 100px;
+    }
+    
+    .profileContiner{
+        height: 260px;
+    }
+
+    .profileContiner2{
+        top: -120px;
+    }
+
+    .cvButton{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 400px){
+    .profileContiner2{
+        width: 100vw;
+    }
+}
+

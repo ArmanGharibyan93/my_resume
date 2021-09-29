@@ -60,11 +60,11 @@ const Header = (props) => {
         <div className={styles.container}>
             <div className={styles.langContainer}>
                 <select value={language} defaultValue="eng" onChange={(e) => changeLanguageHandler(e.target.value)}>
-                    <option key="arm" value="arm">{words.arm}</option>
-                    <option key="cat" value="cat">{words.cat}</option>
-                    <option key="eng" value="eng">{words.eng}</option>
-                    <option key="rus" value="rus">{words.rus}</option>
-                    <option key="sp" value="sp">{words.sp}</option>
+                    <option key="arm" value="arm">Հայ</option>
+                    <option key="cat" value="cat">Cat</option>
+                    <option key="eng" value="eng">Eng</option>
+                    <option key="rus" value="rus">Рус</option>
+                    <option key="sp" value="sp">Esp</option>
                 </select>
             </div>
             <div className={styles.rightPart}>

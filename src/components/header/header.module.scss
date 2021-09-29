@@ -1,8 +1,7 @@
 $headerHeight: 60px;
 $selectWidth: 140px;
 $mobileheight: 40px;
-
-.container{
+.container {
     height: $headerHeight;
     width: 1000px;
     display: flex;
@@ -12,7 +11,7 @@ $mobileheight: 40px;
     z-index: 100;
 }
 
-.langContainer{
+.langContainer {
     height: $headerHeight;
     display: flex;
     align-items: center;
@@ -20,7 +19,7 @@ $mobileheight: 40px;
     width: $selectWidth;
 }
 
-select{
+select {
     width: 60px;
     height: 20px;
     border: 0px transparent solid;
@@ -31,9 +30,10 @@ select{
 
 select option {
     color: cadetblue;
+    margin: 10px;
 }
 
-.rightPart{
+.rightPart {
     height: $headerHeight;
     width: calc(1000px - 140px);
     display: flex;
@@ -42,12 +42,12 @@ select option {
     padding-right: 60px;
 }
 
-.itemsContainer{
+.itemsContainer {
     display: flex;
     justify-content: center;
 }
 
-.item{
+.item {
     margin-left: 20px;
     font-weight: 500;
     color: white;
@@ -56,54 +56,48 @@ select option {
     text-decoration: none;
 }
 
-.item:hover{
+.item:hover {
     color: rgb(185, 185, 185);
 }
 
-.burgerMenu{
+.burgerMenu {
     display: none;
 }
 
-.activeLink{
+.activeLink {
     color: lime;
 }
 
-.menuItem{
+.menuItem {
     display: none;
 }
 
 @media (max-width: 1000px) {
-    .container{
+    .container {
         width: 100vw;
         height: $mobileheight;
     }
-
-    .langContainer{
+    .langContainer {
         height: $mobileheight;
     }
-
-    .select{
+    .select {
         height: $mobileheight;
     }
-
-    .itemsContainer{
+    .itemsContainer {
         display: none;
     }
-
-    .rightPart{
+    .rightPart {
         padding-right: 0px;
         height: $mobileheight;
     }
-
-    .burgerMenu{
+    .burgerMenu {
         display: flex;
         align-items: center;
         justify-content: center;
         height: $headerHeight;
         height: $mobileheight;
     }
-
-    .menuContainer{
+    .menuContainer {
         background-color: rgba(145, 145, 145, 0.233);
         width: 100vw;
         height: 100vh;
@@ -113,19 +107,16 @@ select option {
         display: flex;
         flex-direction: row;
     }
-
-    .sideBar{
+    .sideBar {
         width: 60vw;
         height: 100vh;
     }
-
-    .menu{
+    .menu {
         width: 40vw;
         height: 100vh;
         background-color: orange;
     }
-
-    .menuItem{
+    .menuItem {
         margin-top: 10px;
         margin-left: 10px;
         display: flex;
@@ -135,35 +126,27 @@ select option {
         font-size: 18px;
         text-decoration: none;
     }
-
-    .icon{
+    .icon {
         height: 25px;
         width: 25px;
         margin-right: 10px;
     }
-
-    .activeLink{
+    .activeLink {
         color: lime;
     }
-    
-
 }
 
-
-@media (max-width: 600px){
-    .sideBar{
+@media (max-width: 600px) {
+    .sideBar {
         width: 40vw;
     }
-
-    .menu{
+    .menu {
         width: 60vw;
     }
 }
 
-@media (max-width: 500px){
-    select{
+@media (max-width: 500px) {
+    select {
         margin-left: 15px;
     }
 }
-
-

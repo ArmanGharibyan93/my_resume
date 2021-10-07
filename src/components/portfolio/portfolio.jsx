@@ -26,6 +26,12 @@ const Portfolio = ({words}) => {
                     <div className={styles.info}>MERN(Mongo DB + Express + React + Node.js) stack {words.website}</div>
                 </div>
                 <div className={styles.item}>
+                    <div className={styles.link}>
+                        <a href="http://rding.es" rel="noopener noreferrer" target="_blank">RDING</a>
+                    </div>
+                    <div className={styles.info}>Next.js + Nestjs + TypeScript + mysql {words.website}</div>
+                </div>
+                <div className={styles.item}>
                     <a href="http://murarchitecture.es" target="_blank" rel="noopener noreferrer">Murarchitecture.es</a>
                     <div className={styles.info}>MERN(Mongo DB + Express + React + Node.js) stack {words.website}</div>
                 </div>

@@ -18,12 +18,11 @@ const Experience = ({words}) => {
                 <title>{words.experienceTitle}</title>
             </Helmet>
             <div className={styles.container}>
-                <div className={styles.title}>{words.experienceTitle}</div>
-                <div className={styles.item}>
-                    <div className={styles.time}>{words.from2017}</div>
+            <div className={styles.title}>{words.experienceTitle}</div>
+            <div className={styles.item}>
+                    <div className={styles.time}>{words.from2021}</div>
                     <ul>
-                        <li>{words.from2017Info1}</li>
-                        <li>{words.from2017Info2}</li>
+                        <li>{words.from2021Info1}</li>
                     </ul>
                 </div>
                 <div className={styles.item}>
@@ -33,6 +32,13 @@ const Experience = ({words}) => {
                         <li>{words.from2019Info2}</li>
                         <li>{words.from2019Info3}</li>
                         <li>{words.from2019Info4}</li>
+                    </ul>
+                </div>
+                <div className={styles.item}>
+                    <div className={styles.time}>{words.from2017}</div>
+                    <ul>
+                        <li>{words.from2017Info1}</li>
+                        <li>{words.from2017Info2}</li>
                     </ul>
                 </div>
             </div>

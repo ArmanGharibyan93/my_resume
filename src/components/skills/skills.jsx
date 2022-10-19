@@ -44,6 +44,38 @@ const Skills = ({words}) => {
                     <div className={styles.greyCircle}></div>
                 </div>
                 <div className={styles.itemContainer}>
+                    <div className={styles.itemTitle}>Material UI</div>
+                    <div className={styles.greenCircle}></div>
+                    <div className={styles.greenCircle}></div>
+                    <div className={styles.greenCircle}></div>
+                    <div className={styles.greenCircle}></div>
+                    <div className={styles.greyCircle}></div>
+                </div>
+                <div className={styles.itemContainer}>
+                    <div className={styles.itemTitle}>Tailwind</div>
+                    <div className={styles.greenCircle}></div>
+                    <div className={styles.greenCircle}></div>
+                    <div className={styles.greenCircle}></div>
+                    <div className={styles.greenCircle}></div>
+                    <div className={styles.greyCircle}></div>
+                </div>
+                <div className={styles.itemContainer}>
+                    <div className={styles.itemTitle}>Bootstrap</div>
+                    <div className={styles.greenCircle}></div>
+                    <div className={styles.greenCircle}></div>
+                    <div className={styles.greenCircle}></div>
+                    <div className={styles.greenCircle}></div>
+                    <div className={styles.greyCircle}></div>
+                </div>
+                <div className={styles.itemContainer}>
+                    <div className={styles.itemTitle}>Materialize</div>
+                    <div className={styles.greenCircle}></div>
+                    <div className={styles.greenCircle}></div>
+                    <div className={styles.greenCircle}></div>
+                    <div className={styles.greenCircle}></div>
+                    <div className={styles.greyCircle}></div>
+                </div>
+                <div className={styles.itemContainer}>
                     <div className={styles.itemTitle}>Jquery</div>
                     <div className={styles.greenCircle}></div>
                     <div className={styles.greenCircle}></div>
@@ -88,7 +120,15 @@ const Skills = ({words}) => {
                     <div className={styles.greenCircle}></div>
                     <div className={styles.greenCircle}></div>
                     <div className={styles.greenCircle}></div>
+                    <div className={styles.greenCircle}></div>
                     <div className={styles.greyCircle}></div>
+                </div>
+                <div className={styles.itemContainer}>
+                    <div className={styles.itemTitle}>Svelte</div>
+                    <div className={styles.greenCircle}></div>
+                    <div className={styles.greenCircle}></div>
+                    <div className={styles.greenCircle}></div>
+                    <div className={styles.greenCircle}></div>
                     <div className={styles.greyCircle}></div>
                 </div>
                 <div className={styles.itemContainer}>
@@ -96,7 +136,7 @@ const Skills = ({words}) => {
                     <div className={styles.greenCircle}></div>
                     <div className={styles.greenCircle}></div>
                     <div className={styles.greenCircle}></div>
-                    <div className={styles.greyCircle}></div>
+                    <div className={styles.greenCircle}></div>
                     <div className={styles.greyCircle}></div>
                 </div>
                 <div className={styles.itemContainer}>
@@ -201,22 +241,6 @@ const Skills = ({words}) => {
                     <div className={styles.greenCircle}></div>
                     <div className={styles.greenCircle}></div>
                     <div className={styles.greyCircle}></div>
-                    <div className={styles.greyCircle}></div>
-                </div>
-                <div className={styles.itemContainer}>
-                    <div className={styles.itemTitle}>Bootstrap</div>
-                    <div className={styles.greenCircle}></div>
-                    <div className={styles.greenCircle}></div>
-                    <div className={styles.greenCircle}></div>
-                    <div className={styles.greenCircle}></div>
-                    <div className={styles.greyCircle}></div>
-                </div>
-                <div className={styles.itemContainer}>
-                    <div className={styles.itemTitle}>Materialize</div>
-                    <div className={styles.greenCircle}></div>
-                    <div className={styles.greenCircle}></div>
-                    <div className={styles.greenCircle}></div>
-                    <div className={styles.greenCircle}></div>
                     <div className={styles.greyCircle}></div>
                 </div>
             </div>

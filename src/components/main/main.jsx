@@ -15,7 +15,7 @@ const Main = ({words, link}) => {
                         <div className={styles.name}>{words.name}</div>
                         <div className={styles.profession}>{words.profession}</div>
                     </div>
-                    <a href={link}><input className={styles.cvButton} type="button" value={words.downloadCV} /></a>
+                    <a target='_blank' href={link} rel="noreferrer"><input className={styles.cvButton} type="button" value={words.downloadCV} /></a>
                 </div>
             </div>
         </div>

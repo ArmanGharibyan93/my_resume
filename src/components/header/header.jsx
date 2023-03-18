@@ -19,7 +19,11 @@ const Header = (props) => {
     const menuRef = useRef('');
 
     const cvLinkGenerator = (lang) => {
-        return `https://pyunik-main-api.herokuapp.com/api/${lang}`;
+        return lang === "cat" ? 
+            "https://drive.google.com/file/d/1esyBpHVR8oPc6avrrY5kA2S8703ygA8J/view?usp=share_link" : lang === "esp" ? 
+                "https://drive.google.com/file/d/1PuczQD2mbJSDadxSS5T5ipcyNAR0WjvI/view?usp=share_link" : lang === "arm" ?
+                    "https://drive.google.com/file/d/1uBCDtLlPw5AKbVC_IewItpmFc3wtU8WI/view?usp=share_link" : lang === "rus" ?
+                        "https://drive.google.com/file/d/1vTORzs3D37Udp7QELxkxUuwzPBxRtoJx/view?usp=share_link" : "https://drive.google.com/file/d/1ZBy4ut6oBTzsg-wLoyGR-G9Z8202lSTi/view?usp=share_link"
     }
 
     useEffect(() => {
